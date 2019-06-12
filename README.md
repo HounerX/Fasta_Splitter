@@ -7,4 +7,5 @@ This is an edit(improvement) on dariober response on this bio stars thread:https
 The script now be able to handle cases where the sequence name contain illegal File name characters and it replaces them with "_" 
 
 Usage:
-bash Fasta_splitter.sh <Filename>
+
+bash Fasta_splitter.sh <<Filename>>
