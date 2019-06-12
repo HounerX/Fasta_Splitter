@@ -8,4 +8,4 @@ The script now be able to handle cases where the sequence name contain illegal F
 
 Usage:
 
-bash Fasta_splitter.sh <<Filename>>
+bash Fasta_splitter.sh Filename
