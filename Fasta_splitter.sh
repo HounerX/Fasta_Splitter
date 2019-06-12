@@ -16,7 +16,7 @@ do
 	
         echo $line > $File_name
     else
-        echo $line >> $File_name
+        echo ">$File_name" >> $File_name
     fi
 done < $Fasta_file
 
