@@ -8,9 +8,9 @@ while read line
 do
     if [[ ${line:0:1} == '>' ]]
     then
-	File_name=`echo $line | sed -r 's/[<>:#"/\|?* 	]+/_/g'`
-	
-	File_name="${File_name:1}.fasta"
+	File_extention=".fa"
+
+	File_name="${File_name:1}$File_extention"
 	
         echo $line > $File_name
     else
